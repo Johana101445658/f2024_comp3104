@@ -1,22 +1,22 @@
 {
-  "homepage": "https://Johana101445658.github.io/f2024_comp3104",
   "name": "week05_lab_execrcise05",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://Johana101445658.github.io/f2024_comp3104",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "keywords": [],
   "author": "Pritesh Patel - Exercise Lab 05",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
-  
 }
